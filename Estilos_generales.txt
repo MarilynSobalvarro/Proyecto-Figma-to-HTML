@@ -1,7 +1,26 @@
 Fuente letra:
+inter
 
-Tamano texto:
+Tamano de textos:
+h1 = 64px
+h2 = 36px
+h3 = 28px
+h4 = 20px
+h5 = 64px
+
+p = 14px
+p = 16px
+p = 18px
 
 Colores:
+4CAF4F verde
+FFFFFF blanco
+263238 gris 800 (h5)
+4D4D4D gris 700 (h1, h2, h3)
+717171 gris 600 (h4, p)
+
 
 Espaciado:
+
+
+
