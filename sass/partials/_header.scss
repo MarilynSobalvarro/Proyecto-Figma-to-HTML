@@ -1,0 +1,38 @@
+.header{
+    margin: 30px 0px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-header{
+    display: flex;
+    gap: 50px;
+
+    a {
+        font-size: rem(16);
+        color: $gray-900;
+    }
+}
+
+.btn-header{
+    display: flex;
+    gap: 14px;
+
+    a{
+        font-size: rem(14);
+        padding: 10px 20px;
+        border-radius: 6px;
+    }
+
+    a:first-child{
+        background-color: $white;
+        color: $green;
+    }
+
+    a:nth-child(2) {
+        background-color: $green;
+        color: $white;
+    }
+}
