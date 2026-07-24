@@ -1,0 +1,32 @@
+/* HERO BANNER*/
+.silver-bg {
+    background-color: $silver;
+}
+
+.hero-content h1{
+
+    span{
+        display: block;
+        color: $green;
+    }
+}
+
+.hero-banner{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 96px 0px;
+}
+
+.hero-content{
+
+    h1{
+        margin-bottom: 16px;
+    }
+
+    p{
+        margin-bottom: 32px;
+    }
+}

@@ -1,7 +1,12 @@
-.header{
-    margin: 30px 0px;
-    display: flex;
+/* HEADER */
+.silver-bg {
+    background-color: $silver;
+}
 
+.header{
+    padding: 30px 0px;
+    display: flex;
+    
     justify-content: space-between;
     align-items: center;
 }
@@ -27,7 +32,7 @@
     }
 
     a:first-child{
-        background-color: $white;
+        background-color: $silver;
         color: $green;
     }
 
