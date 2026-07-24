@@ -3,14 +3,6 @@
     background-color: $silver;
 }
 
-.hero-content h1{
-
-    span{
-        display: block;
-        color: $green;
-    }
-}
-
 .hero-banner{
     display: flex;
 
@@ -22,6 +14,11 @@
 
 .hero-content{
 
+    span{
+        display: block;
+        color: $green;
+    }
+
     h1{
         margin-bottom: 16px;
     }
@@ -29,4 +26,5 @@
     p{
         margin-bottom: 32px;
     }
+    
 }

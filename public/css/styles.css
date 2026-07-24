@@ -116,11 +116,6 @@ a {
   background-color: #F5F7FA;
 }
 
-.hero-content h1 span {
-  display: block;
-  color: #4CAF4F;
-}
-
 .hero-banner {
   display: flex;
   justify-content: space-around;
@@ -128,11 +123,33 @@ a {
   padding: 96px 0px;
 }
 
+.hero-content span {
+  display: block;
+  color: #4CAF4F;
+}
 .hero-content h1 {
   margin-bottom: 16px;
 }
 .hero-content p {
   margin-bottom: 32px;
+}
+
+.our-clients {
+  padding: 40px 0px;
+}
+.our-clients h2 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.our-clients p {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.clients-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
