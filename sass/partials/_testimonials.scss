@@ -1,0 +1,45 @@
+.testimonials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 32px 0px;
+}
+
+
+.testimonials-wrap{
+    width: 750px;
+}
+
+.testimonials-content{
+
+    p{
+        margin-bottom: 16px;
+    }
+
+
+    p:nth-child(2){
+        color: $green;
+
+        font-size: rem(20);
+        font-weight: 600;
+
+        margin-bottom: 8px;
+    }
+
+    margin-bottom: 32px;
+}
+
+.testimonials-clients{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a{
+        color: $green;
+
+        font-size: rem(20);
+        font-weight: 600;
+    }
+}

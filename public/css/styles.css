@@ -123,6 +123,11 @@ a {
   margin-bottom: 32px;
 }
 
+#dot-slider {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
 .our-clients {
   padding: 40px 0px;
 }
@@ -189,6 +194,7 @@ a {
 }
 .about-us p {
   margin-bottom: 32px;
+  font-size: 0.875rem;
 }
 
 .about-content {
@@ -228,6 +234,60 @@ a {
 .statistic-item p {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.design-guide {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 85px 0px;
+}
+.design-guide h2 {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.design-guide p {
+  margin-bottom: 32px;
+  font-size: 0.875rem;
+}
+
+.design-guide-content {
+  width: 600px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 32px 0px;
+}
+
+.testimonials-wrap {
+  width: 750px;
+}
+
+.testimonials-content p {
+  margin-bottom: 16px;
+}
+.testimonials-content p:nth-child(2) {
+  color: #4CAF4F;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.testimonials-content {
+  margin-bottom: 32px;
+}
+
+.testimonials-clients {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonials-clients a {
+  color: #4CAF4F;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=styles.css.map */

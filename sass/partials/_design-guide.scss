@@ -1,0 +1,22 @@
+.design-guide{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 85px 0px;
+
+    h2{
+        font-weight: 600;
+
+        margin-bottom: 16px;
+    }
+
+    p{
+        margin-bottom: 32px;
+        font-size: rem(14);
+    }
+}
+
+.design-guide-content{
+    width: 600px;
+}
