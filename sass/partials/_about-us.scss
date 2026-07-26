@@ -1,0 +1,21 @@
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 85px 0px;
+
+    h2{
+        font-weight: 600;
+
+        margin-bottom: 16px;
+    }
+
+    p{
+        margin-bottom: 32px;
+    }
+}
+
+.about-content{
+    width: 600px;
+}

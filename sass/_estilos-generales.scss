@@ -36,14 +36,6 @@ p {
   color: $gray-600;
 }
 
-// .p-small {
-//   font-size: rem(14);
-// }
-
-// .p-big {
-//   font-size: rem(18);
-// }
-
 a {
   text-decoration: none;
 }
@@ -60,4 +52,9 @@ a {
   font-size: 14px;
   padding: 10px 20px 10px 20px;
   border-radius: 8px;
+}
+
+// FONDO
+.silver-bg {
+    background-color: $silver;
 }

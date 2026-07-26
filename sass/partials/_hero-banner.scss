@@ -1,8 +1,4 @@
 /* HERO BANNER*/
-.silver-bg {
-    background-color: $silver;
-}
-
 .hero-banner{
     display: flex;
 
@@ -21,6 +17,7 @@
 
     h1{
         margin-bottom: 16px;
+        font-weight: 600;
     }
 
     p{
