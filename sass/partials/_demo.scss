@@ -1,6 +1,5 @@
 .demo{
     text-align: center;
-
     padding: 32px 0px;
 
     h5{
@@ -11,6 +10,13 @@
     }
 }
 
-.demo-link{
-    text-align: center;
+.demo-btn{
+    display: flex;
+    justify-content: center;
+
+    a{
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+    }
 }

@@ -26,13 +26,9 @@
 
 .blog-item{
     position: relative;
-
-    img{
-        display: block;
-    }
 }
 
-.blog-card{
+.blog-white-card{
     position: absolute;
     box-sizing: border-box;
 
@@ -48,9 +44,9 @@
     background-color: $silver;
     text-align: center;
 
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     box-shadow: 0 8px 24px rgba(0,0,0,.1);
 
@@ -71,5 +67,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    gap: 8px;
 }
 

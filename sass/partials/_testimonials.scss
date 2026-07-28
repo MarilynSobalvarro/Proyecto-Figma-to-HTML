@@ -5,6 +5,10 @@
     align-items: center;
 
     padding: 32px 0px;
+
+    > img{
+        height: 326px;
+    }
 }
 
 
@@ -13,11 +17,11 @@
 }
 
 .testimonials-content{
+    margin-bottom: 32px;
 
     p{
         margin-bottom: 16px;
     }
-
 
     p:nth-child(2){
         color: $green;
@@ -28,11 +32,12 @@
         margin-bottom: 8px;
     }
 
-    margin-bottom: 32px;
+    p:nth-child(3){
+        color: #89939E;
+    }
 }
 
 .testimonials-clients{
-
     display: flex;
     justify-content: space-between;
     align-items: center;
