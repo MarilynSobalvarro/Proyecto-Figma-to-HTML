@@ -1,7 +1,6 @@
-/* HERO BANNER*/
+/* HERO BANNER */
 .hero-banner{
     display: flex;
-
     justify-content: space-around;
     align-items: center;
 
@@ -25,6 +24,8 @@
 }
 
 #dot-slider{
-    text-align: center;
+    width: 46px;
+
+    margin: 0 auto;
     padding-bottom: 15px;
 }

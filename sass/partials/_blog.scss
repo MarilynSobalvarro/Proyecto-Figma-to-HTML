@@ -1,7 +1,7 @@
-// BLOG
+/* BLOG */
 .blog{
     padding-top: 46px;
-    margin-bottom: 190px;
+    margin-bottom: 100px;
 }
 
 .blog-content{
@@ -13,7 +13,8 @@
     }
 
     p{
-        width: 630px;
+        width: 100%;
+        max-width: 630px;
         margin: 0 auto;
         margin-bottom: 16px;
     }
@@ -22,10 +23,12 @@
 .blog-cards{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap
 }
 
 .blog-item{
     position: relative;
+    margin-bottom: 100px;
 }
 
 .blog-white-card{
@@ -69,5 +72,9 @@
     align-items: center;
 
     gap: 8px;
+
+    // img{
+    //     width: 24px;
+    // }
 }
 

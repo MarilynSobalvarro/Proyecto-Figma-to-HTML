@@ -5,10 +5,20 @@
   padding: 0 15px;
 }
 
+/* BUTTON */
 .btn{
   padding: 14px 32px;
   border-radius: 4px;
 
   background-color: $green;
   color: $white;
+}
+
+// FONDO
+.silver-bg {
+  background-color: $silver;
+}
+
+.black-bg {
+  background-color: $black;
 }

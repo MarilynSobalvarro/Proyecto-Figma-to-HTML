@@ -38,24 +38,9 @@ a {
   text-decoration: none;
 }
 
-.btn {
-  font-size: 16px;
-  padding: 32px 14px 32px 14px;
-  border-radius: 4px;
-}
-
-.btn-small {
-  font-size: 14px;
-  padding: 10px 20px 10px 20px;
-  border-radius: 8px;
-}
-
-.silver-bg {
-  background-color: #F5F7FA;
-}
-
-.black-bg {
-  background-color: #263238;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* HELPERS */
@@ -65,11 +50,20 @@ a {
   padding: 0 15px;
 }
 
+/* BUTTON */
 .btn {
   padding: 14px 32px;
   border-radius: 4px;
   background-color: #4CAF4F;
   color: #FFFFFF;
+}
+
+.silver-bg {
+  background-color: #F5F7FA;
+}
+
+.black-bg {
+  background-color: #263238;
 }
 
 /* HEADER */
@@ -107,7 +101,7 @@ a {
   color: #FFFFFF;
 }
 
-/* HERO BANNER*/
+/* HERO BANNER */
 .hero-banner {
   display: flex;
   justify-content: space-around;
@@ -128,10 +122,12 @@ a {
 }
 
 #dot-slider {
-  text-align: center;
+  width: 46px;
+  margin: 0 auto;
   padding-bottom: 15px;
 }
 
+/* OUR CLIENTS */
 .our-clients {
   padding: 40px 0px;
 }
@@ -148,15 +144,18 @@ a {
 .clients-img {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
 }
 
+/* FEATURES */
 .features-content {
   text-align: center;
 }
 .features-content h2 {
   font-weight: 600;
-  width: 542px;
+  width: 100%;
+  max-width: 542px;
   margin: 0 auto;
   margin-bottom: 8px;
 }
@@ -170,11 +169,13 @@ a {
 .features-cards {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .features-card {
   box-sizing: border-box;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   padding: 24px 32px;
   text-align: center;
   box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
@@ -188,9 +189,11 @@ a {
   font-size: 0.875rem;
 }
 
+/* ABOUT US */
 .about-us {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   padding: 85px 0px;
 }
@@ -204,13 +207,16 @@ a {
 }
 
 .about-content {
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
 }
 
+/* STATISTIC */
 .statistic {
   padding: 64px 0px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -242,9 +248,11 @@ a {
   margin-bottom: 0px;
 }
 
+/* DESIGN GUIDE */
 .design-guide {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   padding: 85px 0px;
 }
@@ -258,21 +266,22 @@ a {
 }
 
 .design-guide-content {
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
 }
 
+/* TESTIMONIALS */
 .testimonials {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   padding: 32px 0px;
 }
-.testimonials > img {
-  height: 326px;
-}
 
 .testimonials-wrap {
-  width: 750px;
+  max-width: 750px;
+  width: 100%;
 }
 
 .testimonials-content {
@@ -302,9 +311,16 @@ a {
   font-weight: 600;
 }
 
+.testimonials-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* BLOG */
 .blog {
   padding-top: 46px;
-  margin-bottom: 190px;
+  margin-bottom: 100px;
 }
 
 .blog-content {
@@ -315,7 +331,8 @@ a {
   margin-bottom: 8px;
 }
 .blog-content p {
-  width: 630px;
+  width: 100%;
+  max-width: 630px;
   margin: 0 auto;
   margin-bottom: 16px;
 }
@@ -323,10 +340,12 @@ a {
 .blog-cards {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .blog-item {
   position: relative;
+  margin-bottom: 100px;
 }
 
 .blog-white-card {
@@ -363,13 +382,15 @@ a {
   gap: 8px;
 }
 
+/* DEMO */
 .demo {
   text-align: center;
   padding: 32px 0px;
 }
 .demo h5 {
   font-weight: 600;
-  width: 750px;
+  width: 100%;
+  max-width: 750px;
   margin: 0 auto 32px;
 }
 
@@ -383,10 +404,13 @@ a {
   gap: 8px;
 }
 
+/* FOOTER */
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 64px 74px;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 64px 0px 74px 0px;
 }
 .footer p {
   color: #F5F7FA;
@@ -395,6 +419,7 @@ a {
 .footer h4 {
   color: #FFFFFF;
   font-weight: 600;
+  margin-top: 0px;
   margin-bottom: 24px;
 }
 .footer a {
@@ -406,6 +431,7 @@ a {
 }
 
 .footer-column1 > img {
+  width: 191px;
   margin-bottom: 40px;
 }
 .footer-column1 p:nth-child(3) {

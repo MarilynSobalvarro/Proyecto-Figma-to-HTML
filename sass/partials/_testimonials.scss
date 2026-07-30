@@ -1,19 +1,21 @@
-// TESTIMONIALS
+/* TESTIMONIALS */
 .testimonials{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
 
     padding: 32px 0px;
 
-    > img{
-        height: 326px;
-    }
+    // > img{
+    //     width: 326px;
+    // }
 }
 
 
 .testimonials-wrap{
-    width: 750px;
+    max-width: 750px;
+    width: 100%;
 }
 
 .testimonials-content{
@@ -42,10 +44,24 @@
     justify-content: space-between;
     align-items: center;
 
+    // img{
+    //     width: 48px;
+    // }
+
+    // img:last-child{
+    //     width: 24px;
+    // }
+
     a{
         color: $green;
 
         font-size: rem(20);
         font-weight: 600;
     }
+}
+
+.testimonials-link{
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
