@@ -1,8 +1,5 @@
 // TIPOGRAFIA
-// 16px = 1em
-// Formula para font size
-// em = px / 16
-
+$fontsize-default: 16px;
 
 // VARIABLES COLORES
 $green: #4CAF4F;
@@ -17,5 +14,5 @@ $black: #263238;
 $silver: #F5F7FA;
 
 // BREAKPOINTS
-// $tablet-breakpoint: 1023px;
-// $mobile-breakpoint: 767px;
+$tablet-breakpoint: 1023px;
+$mobile-breakpoint: 767px;

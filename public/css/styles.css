@@ -47,7 +47,7 @@ img {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0px 15px;
 }
 
 /* BUTTON */
@@ -68,7 +68,8 @@ img {
 
 /* HEADER */
 .header {
-  padding: 30px 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -101,12 +102,17 @@ img {
   color: #FFFFFF;
 }
 
+#menu-mobile {
+  display: none;
+}
+
 /* HERO BANNER */
 .hero-banner {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 96px 0px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .hero-content span {
@@ -129,7 +135,8 @@ img {
 
 /* OUR CLIENTS */
 .our-clients {
-  padding: 40px 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .our-clients h2 {
   text-align: center;
@@ -195,7 +202,8 @@ img {
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  padding: 85px 0px;
+  padding-top: 85px;
+  padding-bottom: 85px;
 }
 .about-us h2 {
   font-weight: 600;
@@ -213,7 +221,8 @@ img {
 
 /* STATISTIC */
 .statistic {
-  padding: 64px 0px;
+  padding-top: 64px;
+  padding-bottom: 64px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -254,7 +263,8 @@ img {
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  padding: 85px 0px;
+  padding-top: 85px;
+  padding-bottom: 85px;
 }
 .design-guide h2 {
   font-weight: 600;
@@ -274,9 +284,12 @@ img {
 .testimonials {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
   align-items: center;
-  padding: 32px 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.testimonials h2 {
+  display: none;
 }
 
 .testimonials-wrap {
@@ -290,6 +303,9 @@ img {
 .testimonials-content p {
   margin-bottom: 16px;
 }
+.testimonials-content h2 {
+  display: none;
+}
 .testimonials-content p:nth-child(2) {
   color: #4CAF4F;
   font-size: 1.25rem;
@@ -298,17 +314,28 @@ img {
 }
 .testimonials-content p:nth-child(3) {
   color: #89939E;
+  font-weight: 400;
 }
 
 .testimonials-clients {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 24px;
+}
+.testimonials-clients > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .testimonials-clients a {
   color: #4CAF4F;
   font-size: 1.25rem;
   font-weight: 600;
+}
+
+.footer-information {
+  display: flex;
+  justify-content: space-between;
 }
 
 .testimonials-link {
@@ -355,7 +382,8 @@ img {
   left: 50%;
   transform: translateX(-50%);
   height: 176px;
-  width: 318px;
+  width: 100%;
+  max-width: 318px;
   padding: 16px 16px;
   border-radius: 8px;
   background-color: #F5F7FA;
@@ -385,7 +413,8 @@ img {
 /* DEMO */
 .demo {
   text-align: center;
-  padding: 32px 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .demo h5 {
   font-weight: 600;
@@ -410,7 +439,8 @@ img {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 25px;
-  padding: 64px 0px 74px 0px;
+  padding-top: 64px;
+  padding-bottom: 74px;
 }
 .footer p {
   color: #F5F7FA;
@@ -472,6 +502,105 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Tablet */
+@media only screen and (max-width: 1023px) {
+  body {
+    border-top: 10px solid blue;
+    font-size: 19px;
+  }
+  .menu-header, .btn-header {
+    display: none;
+  }
+  #menu-mobile {
+    display: flex;
+    align-items: center;
+  }
+  .hero-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 0px;
+    gap: 50px;
+  }
+  .clients-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+  }
+  .clients-img > *:last-child:nth-child(odd) {
+    grid-column: 1/-1;
+  }
+  .features-cards {
+    gap: 24px;
+  }
+  .features-card {
+    max-width: 350px;
+  }
+  .about-us {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 32px;
+  }
+  .design-guide {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 32px;
+  }
+  .testimonials {
+    flex-direction: column;
+    width: 100%;
+    max-width: 85%;
+  }
+  .testimonials h2 {
+    display: flex;
+  }
+  .testimonials-clients {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+/* Movil */
+@media only screen and (max-width: 767px) {
+  body {
+    border-top: 10px solid orangered;
+  }
+  h1,
+  h5 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.875rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  .clients-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .statistic {
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+  }
+  .statistic-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    justify-items: center;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-column1,
+  .footer-company,
+  .footer-support,
+  .footer-form {
+    text-align: center;
+    margin-bottom: 15px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

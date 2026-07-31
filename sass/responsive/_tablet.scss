@@ -1,9 +1,77 @@
-// Tablet
-/*
-    @media only screen and (max-width: $tablet-breakpoint) {
+/* Tablet */
+@media only screen and (max-width: $tablet-breakpoint) {
     body {
         border-top: 10px solid blue;
         font-size: $fontsize-default + 3;
     }
+    
+    // Header
+    .menu-header, .btn-header{
+        display: none;
+    }
+
+    #menu-mobile{
+    display: flex;
+    align-items: center;
+    }
+
+    // Hero Banner
+    .hero-banner{
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 0px;
+        gap: 50px;
+    }
+
+    // Our Clients
+    .clients-img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+
+        justify-items: center;
+
+        & > *:last-child:nth-child(odd) {
+        grid-column: 1 / -1;}
+    }
+
+    // Features
+    .features-cards{
+        gap: 24px;
+    }
+
+    .features-card{
+        max-width: 350px;
+    }
+
+    // About Us
+    .about-us{
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 32px;
+    }
+
+    // Design Guide
+    .design-guide{
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 32px;
+    }
+
+    // Testimonials
+    .testimonials{
+        flex-direction: column;
+        width: 100%;
+        max-width: 85%;
+
+        h2{
+            display: flex;
+        }
+    }
+
+    .testimonials-clients{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
 }
-*/

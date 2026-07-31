@@ -5,7 +5,8 @@
     flex-wrap: wrap;
     gap: 25px;
 
-    padding: 64px 0px 74px 0px;
+    padding-top: 64px;
+    padding-bottom: 74px;
 
     p{
         color: $silver;
@@ -43,10 +44,6 @@
 }
 
 .footer-social-media{
-    // img{
-    //     width: 32px;
-    // }
-
     img + img{
         margin-left: 16px;
     }
